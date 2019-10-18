@@ -1,0 +1,50 @@
+    1  touch index.html
+    2  vscode index.html
+    3  code index.html
+    4  history
+    5  ls
+    6  mkdir test
+    7  ls
+    8  rm test/
+    9  rmv test
+   10  man mkdir
+   11  what test/
+   12  cd ..
+   13  cd /
+   14  ls
+   15  cd ~/Documents
+   16  cd ~/Web dev Pro
+   17  cd ~/Web
+   18  cd ~/WebdevPro
+   19  cd ..
+   20  cd ~/Web_dev_Pro
+   21  cd ~/WEB_dev_Pro
+   22  ls
+   23  cd WEB_dev_Pro/
+   24  mv 1.1-\ Introduction\ -\ Git\ and\ GitHub\ for\ Poets.mp4 ~/Downloads/Video/COLT/
+   25  mv *.mp4 ~/Downloads/Video/COLT/
+   26  cd ~
+   27  ls
+   28  ls -h
+   29  clear
+   30  cd ~/Documents/
+   31  cd WEB_dev_Pro/
+   32  code index.html
+   33  git config --global user.name "Mubarak Jama"
+   34  git config --global user.email "mobarak.jama2016@gmail.com"
+   35  cd Project/
+   36  git init
+   37  mv ~/Documents/WEB_dev_Pro/index.html ~/Documents/WEB_dev_Pro/Project/
+   38  ls
+   39  ls -a
+   40  which ls
+   41  man ls
+   42  ls man
+   43  which cd
+   44  git status
+   45  git add index.html
+   46  git status
+   47  git commit -m "Created new file"
+   48  git log
+   49  history
+

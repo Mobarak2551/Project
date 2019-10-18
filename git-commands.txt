@@ -1,0 +1,23 @@
+git config --global user.name "Mubarak Jama"
+git config --global user.email "mobarak.jama2016@gmail.com"
+
+1.command 1= git init "To add a Repo".
+2.command 2= git status "To check the status of your files".
+3.command 3= git add <file name> "To add files to commit".
+4.command 4= git commit -m <Your commit> "To add a comment about your changes".
+5.command 5= git add . "To add and commit all hanges made to all files rather than one file.
+6.command 6= git log "To view version control , changes made and the commit hashs".
+7.command 7= git checkout "To go back to earlier versions".
+7.1.command 7.1= checkout -b <branch name> "To create a new branch and switch to it".
+8.command 8= git branch "To view Branchs".
+9.command 9= git branch <branch name> "To create a new branch".
+10.command 10= git branch -d <branch name> "To delete bracnhs".
+11.command 11= git merge <branch name> "To combine your new branch's change with the master branch".
+
+                                        Github commands
+
+1.command 1= git remote add <remote name> URL:// "To link your Local Git to Github".
+2.command 2= git push -u <remote name> <Branch name> "To upload changes made in your local Git to your Online Github repo".
+3.command 3= git pull <remote name> <Branch name> "To Download changes from Github account to local machine".
+4.command 4= git remote -v "To show current remotes".
+5.command 5= git clone URL:// "To clone other peoples work" "PS. never clone a repo into another repo"
