@@ -1,0 +1,149 @@
+package somaliland;
+
+import java.util.Scanner;
+
+public class Somaliland {
+
+    public static void main(String[] args) {
+        int S, AA, BB, bb, cc, RR, rr, DD, ee, ff, hh;
+        System.out.println("kusoo dhawoow Kaafi Maansoor Hotel!\n");
+        Scanner g = new Scanner(System.in);
+        System.out.println("Fadlan dooro dalab kaaga !");
+        System.out.println("number 1 quraac :");
+        System.out.println("number 2 qado :");
+        System.out.println("number 3 casho :");
+        System.out.println("number 4 sharaabo : \n ");
+        System.out.println("Halkan geli numberka : ");
+        S = g.nextInt();
+
+        //String result = "unknown";
+        switch (S) {
+            case 1: //Quraac
+                System.out.println("Quraac noocee ah baad rabtaa ?");
+                System.out.println("number 1 beer geel :");
+                System.out.println("number 2 beer adhi :");
+                AA = g.nextInt();
+                switch (AA) {
+                    case 1:
+                        System.out.println("Waxaad dooratay beer geel!!");
+                        break;
+                    case 2:
+                        System.out.println("Waxaad dooratay beer adhi!!");
+                        break;
+                }
+                break;
+            case 2: //Qado
+                System.out.println("Qado noocee ah baad rabtaa ?");
+                System.out.println("number 1 Hilib Adhi.");
+                System.out.println("number 2 Hilib Geel.");
+                BB = g.nextInt();
+                switch (BB) {
+                    case 1: //Adhi
+                        System.out.println("number 1 waslad :");
+                        System.out.println("number 2 gaaban :");
+                        bb = g.nextInt();
+                        switch (bb) {
+                            case 1:
+                                System.out.println("Waxaad dooratay waslad Adhi!!");
+                                break;
+                            case 2:
+                                System.out.println("Waxaad dooratay hilib Adhi gaaban!!");
+                                break;
+                        }
+                        break;
+                    case 2: //Geel
+                        System.out.println("number 1 waslad :");
+                        System.out.println("number 2 gaaban :");
+                        cc = g.nextInt();
+                        switch (cc) {
+                            case 1:
+                                System.out.println("Waxaad dooratay waslad Geel.");
+                                break;
+                            case 2:
+                                System.out.println("Waxaad dooratay waslad gaaban oo geel.");
+                                break;
+                        }
+                        break;
+                }
+                break;
+            case 3: //Caho
+                System.out.println("Fadlan casho nooce ah baad rabtaa");
+                System.out.println("number 1 kaluun : ");
+                System.out.println("number 2 roosh : ");
+                RR = g.nextInt();
+                switch (RR) {
+                    case 1:
+                        System.out.println("number 1 toona fish : ");
+                        System.out.println("number 2 finger fish : ");
+                        rr = g.nextInt();
+                        switch (rr) {
+                            case 1:
+                                System.out.println("Waxaad dooratay toona fish!! ");
+                                break;
+                            case 2:
+                                System.out.println("Waxaad dooratay finger fish!! ");
+                                break;
+                        }
+                        break;
+
+                }
+                break;
+            case 4: //Sharaabo
+                System.out.println("sharaabo noocee ah baad rabtaa");
+                System.out.println("number 1 Papaya Juice :");
+                System.out.println("number 2 Mango Juice :");
+                System.out.println("number 3 Soursop Juice :");
+                DD = g.nextInt();
+                switch (DD) {
+                    case 1: //Papaya
+                        System.out.println("number 1 Sonkor.");
+                        System.out.println("number 2 Bilaa sonkor.");
+                        ee = g.nextInt();
+                        switch (ee) {
+                            case 1:
+                                System.out.println("Waxaad dooratay Papaya Sonkorleh!! ");
+                                break;
+                            case 2:
+                                System.out.println("Waxaad dooratay Papaya Bilaa sonkor ah!!");
+                                break;
+                        }
+                        break;
+                    case 2: //mango
+                        System.out.println("number 1 Sonkor.");
+                        System.out.println("number 2 Bilaa sonkor.");
+                        ff = g.nextInt();
+                        switch (ff) {
+                            case 1:
+                                System.out.println("Waxaad dooratay Mango Sonkor leh!!");
+                                break;
+                            case 2:
+                                System.out.println("Waxaad dooratay Mango Bilaa sonkor ah!!");
+                                break;
+                        }
+                        break;
+                    case 3: //Soursop
+                        System.out.println("number 1 Sonkor.");
+                        System.out.println("number 2 Bilaa sonkor.");
+                        hh = g.nextInt();
+                        switch (hh) {
+                            case 1:
+                                System.out.println("Waxaad dooratay Soursop Sonkor leh!!");
+                                break;
+                            case 2:
+                                System.out.println("Waxaad dooratay Soursop Bilaa sonkor ah!!");
+                                break;
+                        }
+
+                        break;
+                }
+
+                break;
+
+            //break;
+            //result = "january";
+            default:
+                System.out.println("Hargeisa");
+                break;
+        }
+    }
+}
